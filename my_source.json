@@ -1,0 +1,76 @@
+{
+  "name": "Dave's Source",
+  "subtitle": "A source by Dave",
+  "description": "Welcome to my source! Here you'll find all of my apps.",
+  "website": null,
+  "iconURL": null,
+  "headerURL": null,
+  "tintColor": null,
+  "apps": [
+    {
+      "name": "Spotify",
+      "bundleIdentifier": "com.yodaluca23.SpotilifeC",
+      "developerName": "yodaluca23",
+      "subtitle": null,
+      "localizedDescription": "My amazing app description.",
+      "iconURL": "https://picsum.photos/seed/com.yodaluca23.spotilifec/512/512",
+      "tintColor": "32D74B",
+      "category": null,
+      "screenshots": [
+        {
+          "height": 2778,
+          "width": 1284,
+          "imageURL": "https://picsum.photos/seed/com.yodaluca23.spotilifec_1/1284/2778"
+        },
+        {
+          "height": 2778,
+          "width": 1284,
+          "imageURL": "https://picsum.photos/seed/com.yodaluca23.spotilifec_2/1284/2778"
+        },
+        {
+          "imageURL": "https://picsum.photos/seed/com.yodaluca23.spotilifec_3/1284/2778",
+          "width": 1284,
+          "height": 2778
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.2.3",
+          "date": "2024-04-21T01:15:03+03:00",
+          "localizedDescription": "Bug fixes and improvements.",
+          "downloadURL": "https://example.com/SpotilifeC.ipa",
+          "size": 49104780,
+          "sha256": "1cb6ad7e145fc1ca37eb9007d2338a68d51a5dd960d99a560f1d1eed218c194a",
+          "minOSVersion": "12.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "aps-environment",
+          "com.apple.security.application-groups",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.siri",
+          "com.apple.developer.playable-content",
+          "com.apple.developer.carplay-audio",
+          "com.apple.developer.applesignin",
+          "keychain-access-groups",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info"
+        ],
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library.",
+          "NSBluetoothPeripheralUsageDescription": "This lets you use Spotify with external accessories.",
+          "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
+          "NSLocationWhenInUseUsageDescription": "This lets you prepopulate the SSID field with the currently connected network.",
+          "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
+          "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
+          "NSBluetoothAlwaysUsageDescription": "This lets you use Spotify with external accessories.",
+          "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you.",
+          "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
+          "NSCameraUsageDescription": "This lets you scan Spotify Codes."
+        }
+      }
+    }
+  ]
+}
